@@ -1,0 +1,122 @@
+html, a:hover {
+	cursor: url(cursor/nat9.ani), url(cursor/nat9.png), progress !important;
+	font-family: Times,"Times New Roman",serif;
+} 
+html{
+	background-color: #000;
+	background-image: url("img/stars.gif");
+	color: #000;
+}
+h1{
+	margin-right:auto;
+	margin-left:auto;
+	width:20%;
+}
+div{
+	margin-right:auto;
+	margin-left:auto;
+	vertical-align: top;
+/*    overflow: hidden;
+    white-space: nowrap;*/
+}
+img{
+	margin-right:auto;
+	margin-left:auto;
+	display:inline-block;
+}
+p{
+	display: inline-block;
+}
+a{
+	text-decoration: underline;
+}
+.title{
+	margin: auto;
+}
+.center{
+	text-align: center;
+}
+.gargoyle{
+	max-width: 10%;
+	max-height: 20vh;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.name{
+    max-width: 50%;
+    max-height: 20vh;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.flip{
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.column{
+	width: 70%;
+	height: 100vh;
+	background-color: #008180;
+	background: url("img/bg.gif");
+	background-attachment: local;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	float: top;
+}
+.torch{
+	width: 14%;
+	height: 100vh;
+	background-image: url("img/torch.gif");
+	background-repeat: repeat-y;
+	display: inline-block;
+	background-position: center top;
+}
+.inner{
+	display: block;
+}
+.pic{
+	max-width: 10vw;
+	max-height: 10vh;
+}
+.squish{
+	height: 30px;
+}
+.bump{
+	margin-left: 10vw;
+	margin-right: 10vw;
+}
+@-webkit-keyframes move
+{
+    from {
+        left: 10%;
+    }
+    to {
+        left: 80%;
+    }
+}
+@keyframes move
+{
+    from {
+        left: 10%;
+    }
+    to {
+        left: 80%;
+    }
+}
+#cat{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+	-webkit-animation: move 4s;
+	animation: move 4s;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear; /* Safari 4.0 - 8.0 */
+    animation-timing-function: linear;
+}
+#truck{
+    padding-top: 20px;
+}
